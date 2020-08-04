@@ -81,6 +81,7 @@ public class KanaAppraiser
     {
         if(eval_char >= ZENKAKU_HIRAGANA_FIRST
         && eval_char <= ZENKAKU_HIRAGANA_LAST_FOR_CONVERT) {
+            System.out.println("webhook test")
             return true;
         }
         return false;
